@@ -15,7 +15,7 @@ I will take care of the rest. 😎"""
     MY_OWNER_TXT = """★ Name: Hansaka Anuhas
 ★ Username: @Hansaka_Anuhas
 ★ ID: <code>5493832202</code>
-★ Country: Sri Lanka 🇱🇰"""
+★ Country: India 🇮🇳"""
 
     STATUS_TXT = """🗂 Total Files: <code>{}</code>
 👤 Total Users: <code>{}</code>
