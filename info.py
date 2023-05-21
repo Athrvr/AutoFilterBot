@@ -45,7 +45,7 @@ AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SPELL_CHECK = is_enabled(environ.get("SPELL_CHECK", "True"), True)
 SHORTLINK = is_enabled((environ.get('SHORTLINK', "False")), False)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), False)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True), True)
 WELCOME = is_enabled((environ.get('WELCOME', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
@@ -57,7 +57,7 @@ IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "✅ I Found: <code>{query}</code>\
 FILE_CAPTION = environ.get("FILE_CAPTION", "<code>{file_name}</code>")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", None)
-SHORTLINK_API = environ.get("SHORTLINK_API",None)
+SHORTLINK_API = environ.get("SHORTLINK_API", None)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
 
 # Log
