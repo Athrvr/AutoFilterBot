@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Links
 SUPPORT_LINK = environ.get('SUPPORT_LINK', '@movietestonly')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'movietestonly')
+UPDATES_LINK = environ.get('UPDATES_LINK', '@movietestonly')
 
 # Bot settings
 AUTO_FILTER = is_enabled((environ.get('AUTO_FILTER', "True")), True)
